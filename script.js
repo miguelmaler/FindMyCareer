@@ -5,11 +5,29 @@ const CATEGORY_LABELS = {
 
 // Add or edit resources here.
 const resources = [
+  {
+    category: "fit",
+    title: "HIGH5 Strengths Test",
+    url: "https://high5test.com/",
+    description: "Figure out your strengths and motivators using this test.",
+  },  
+  {
+    category: "fit",
+    title: "Career Explorer",
+    url: "https://www.careerexplorer.com/",
+    description: "A comprehensive career advancement test to help you find your idea career.",
+  },
+  {
+    category: "fit",
+    title: "Alberta Preferred Knowledge Quiz",
+    url: "https://alis.alberta.ca/careerinsite/know-yourself/find-your-fit/preferred-knowledge-quiz/",
+    description: "A 15 minute quiz to help you narrow down your areas of interest",
+  }, 
    {
     category: "fit",
     title: "80,000 Hours, How to make a difference with your career",
     url: "https://80000hours.org/",
-    description: "Free resource to help you choose how you will spend 80,000 hours of your life (average career span)",
+    description: "This organization helps people choose a high impact career. Free one-on-one career advising is available!",
   },
   {
     category: "fit",
@@ -33,7 +51,7 @@ const resources = [
     category: "explore",
     title: "My Next Move",
     url: "https://www.mynextmove.org/",
-    description: "Search careers by industry, interests, or key words.",
+    description: "Search careers by industry, interests, or key words. Also contains an assessment to help you determine a suitable path.",
   },
 ];
 
