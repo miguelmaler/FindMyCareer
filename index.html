@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="FindMyCareer: curated career resources for high school students and young adults."
+    />
+    <title>FindMyCareer | Career Resource Hub</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Work+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero__bg-shape hero__bg-shape--one" aria-hidden="true"></div>
+      <div class="hero__bg-shape hero__bg-shape--two" aria-hidden="true"></div>
+      <div class="container">
+        <p class="eyebrow">FindMyCareer</p>
+        <h1>Career Resource Hub</h1>
+        <p class="hero__lead">
+          A growing list of resources for high school students and young adults exploring future career options.
+        </p>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="intro card reveal" aria-labelledby="how-to-use-title">
+        <h2 id="how-to-use-title">How to use this site</h2>
+        <p>
+          Use the category tabs to switch between resources that help with career fit and resources to explore career paths.
+          To add your own links, edit the <code>resources</code> array in <code>script.js</code>.
+        </p>
+      </section>
+
+      <section class="toolbar reveal" aria-label="Resource filters">
+        <div class="tabs" role="tablist" aria-label="Resource categories">
+          <button class="tab is-active" role="tab" aria-selected="true" data-category="fit">
+            Find a Good Career Fit
+          </button>
+          <button class="tab" role="tab" aria-selected="false" data-category="explore">
+            Explore Career Paths
+          </button>
+        </div>
+      </section>
+
+      <section class="resources reveal" aria-live="polite">
+        <h2 id="resource-list-title">Find a Good Career Fit</h2>
+        <p class="resources__count" id="resource-count"></p>
+        <div id="resource-list" class="resource-grid"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>
+          Built as a static website for GitHub Pages. Update resource links in <code>script.js</code>.
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
