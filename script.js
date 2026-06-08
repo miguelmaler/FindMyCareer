@@ -5,6 +5,12 @@ const CATEGORY_LABELS = {
 
 // Add or edit resources here.
 const resources = [
+   {
+    category: "fit",
+    title: "80,000 Hours, How to make a difference with your career",
+    url: "https://80000hours.org/",
+    description: "You will spend about 80,000 hours of your life on your career, this resource will help you choose a good one!.",
+  },
   {
     category: "fit",
     title: "CareerOneStop Interest Assessment",
