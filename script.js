@@ -6,6 +6,18 @@ const CATEGORY_LABELS = {
 // Add or edit resources here.
 const resources = [
   {
+    category: "explore",
+    title: "Glassdoor",
+    url: "https://www.glassdoor.com/index.htm",
+    description: "Already have a role or company of interest? See what those already there are saying about it.",
+  },
+  {
+    category: "fit",
+    title: "Career Guidance SubReddit",
+    url: "https://www.reddit.com/r/careerguidance/",
+    description: "Ask your career questions to a massive community, or browse others' questions!",
+  },
+  {
     category: "fit",
     title: "HIGH5 Strengths Test",
     url: "https://high5test.com/",
