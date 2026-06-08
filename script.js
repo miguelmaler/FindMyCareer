@@ -7,22 +7,29 @@ const CATEGORY_LABELS = {
 const resources = [
   {
     category: "explore",
+    title: "Accounting: A Day in the life",
+    url: "https://www.big4bound.com/day-in-the-life-busy-season-big-4-audit/",
+    description: "Short Blog detailing a day in the life of an audit accountant.",
+  },    
+
+  {
+    category: "explore",
     title: "Aircraft Mechanic: A day in the life",
     url: "https://www.youtube.com/watch?v=GCC3sFibNLY",
-    description: "A first hand video showcasing a day in the life of an aircraft mechanic",
+    description: "A first hand video showcasing a day in the life of an aircraft mechanic.",
   },    
 
   {
     category: "explore",
     title: "Digital Art, 3D animation, Game Development ",
-    url: "https://www.cgspectrum.com/career-pathways",
-    description: "If these areas (and other adjacent ones) are of interest, check this resource out to learn more",
+    url: "https://www.cgspectrum.com/gcareer-pathways",
+    description: "If these areas (and other adjacent ones) are of interest, check this resource out to learn more.",
   },    
   {
     category: "explore",
     title: "Glassdoor",
     url: "https://www.glassdoor.com/index.htm",
-    description: "Already have a role or company of interest? See what those already there are saying about it.",
+    description: "Already have a role or company of interest? See what those who are already there are saying about it.",
   },
   {
     category: "fit",
@@ -73,7 +80,7 @@ const resources = [
     description: "Browse hundreds of jobs with salary, education, and growth info.",
   },
   {
-    category: "explore",
+    category: "fit",
     title: "My Next Move",
     url: "https://www.mynextmove.org/",
     description: "Search careers by industry, interests, or key words. Also contains an assessment to help you determine a suitable path.",
