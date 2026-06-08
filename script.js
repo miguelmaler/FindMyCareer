@@ -9,7 +9,7 @@ const resources = [
     category: "fit",
     title: "80,000 Hours, How to make a difference with your career",
     url: "https://80000hours.org/",
-    description: "You will spend about 80,000 hours of your life on your career, this FREE resource will help you choose a good one!.",
+    description: "Free resource to help you choose how you will spend 80,000 hours of your life (average career span)",
   },
   {
     category: "fit",

@@ -1,4 +1,4 @@
-miguelmaler.github.io/findmycareer
+https://miguelmaler.github.io/FindMyCareer/
 
 # FindMyCareer
 
