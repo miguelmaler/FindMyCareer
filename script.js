@@ -10,8 +10,49 @@ const resources = [
     title: "Accounting: A Day in the life",
     url: "https://www.big4bound.com/day-in-the-life-busy-season-big-4-audit/",
     description: "Short Blog detailing a day in the life of an audit accountant.",
-  },    
-
+  },
+  {
+    category: "explore",
+    title: "Actuary: A Day in the life",
+    url: "https://www.acturhire.com/post/a-day-in-the-life-of-an-actuary",
+    description: "Actuary work: what is it? what does a day in the life look like? Find out!",
+  },
+  {
+    category: "explore",
+    title: "Advertising Manager: Role breakdown",
+    url: "https://em-lyon.com/en/student/guides/jobs/advertising-manager",
+    description: "Learn about what working in advertising looks like and how to get into the field.",
+  },
+  {
+    category: "explore",
+    title: "Welding: A Day in the life",
+    url: "https://www.aai.edu/blog/welding/what-does-a-welder-do-a-day-in-the-life-of-a-welder/",
+    description: "Curious about what a welder's day looks like? Take a peek here.",
+  },
+  {
+    category: "explore",
+    title: "Anesthesiology: A Day in the life",
+    url: "https://sphere.nyssa-pga.org/featured/a-day-in-the-life-of-an-anesthesiology-resident/",
+    description: "Three short reads from three different anesthesiologists sharing what their work is like.",
+  },
+  {
+    category: "explore",
+    title: "Accounting: A Day in the life",
+    url: "https://www.big4bound.com/day-in-the-life-busy-season-big-4-audit/",
+    description: "Short Blog detailing a day in the life of an audit accountant.",
+  },
+  {
+    category: "explore",
+    title: "Accounting: A Day in the life",
+    url: "https://www.big4bound.com/day-in-the-life-busy-season-big-4-audit/",
+    description: "Short Blog detailing a day in the life of an audit accountant.",
+  },
+  {
+    category: "explore",
+    title: "Accounting: A Day in the life",
+    url: "https://www.big4bound.com/day-in-the-life-busy-season-big-4-audit/",
+    description: "Short Blog detailing a day in the life of an audit accountant.",
+  },
   {
     category: "explore",
     title: "Aircraft Mechanic: A day in the life",
