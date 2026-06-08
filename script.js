@@ -7,6 +7,19 @@ const CATEGORY_LABELS = {
 const resources = [
   {
     category: "explore",
+    title: "Aircraft Mechanic: A day in the life",
+    url: "https://www.youtube.com/watch?v=GCC3sFibNLY",
+    description: "A first hand video showcasing a day in the life of an aircraft mechanic",
+  },    
+
+  {
+    category: "explore",
+    title: "Digital Art, 3D animation, Game Development ",
+    url: "https://www.cgspectrum.com/career-pathways",
+    description: "If these areas (and other adjacent ones) are of interest, check this resource out to learn more",
+  },    
+  {
+    category: "explore",
     title: "Glassdoor",
     url: "https://www.glassdoor.com/index.htm",
     description: "Already have a role or company of interest? See what those already there are saying about it.",
